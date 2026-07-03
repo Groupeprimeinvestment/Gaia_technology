@@ -1,0 +1,9 @@
+# Ne pas déployer les documents internes ni les fichiers non-web
+*.pdf
+*.xlsx
+*.docx
+info GAIA.txt
+desktop.ini
+.claude/
+gaia_technology_contenu_site.md
+README.md

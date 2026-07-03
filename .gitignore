@@ -13,3 +13,5 @@ node_modules/
 *.xlsx
 *.docx
 info GAIA.txt
+
+.vercel
