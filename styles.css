@@ -133,6 +133,8 @@ a { color: inherit; text-decoration: none; }
   background: rgba(255,255,255,.96); backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border); box-shadow: var(--shadow);
 }
+/* Respecte l'attribut hidden : masqué par défaut, ne s'ouvre qu'au hamburger (mobile) */
+.mobile-menu[hidden] { display: none; }
 .mobile-menu a { color: var(--text-soft); padding: 12px 8px; border-radius: 10px; font-weight: 500; }
 .mobile-menu a:hover { background: var(--surface-2); color: var(--text); }
 .mobile-menu .btn { margin-top: 8px; justify-content: center; }
