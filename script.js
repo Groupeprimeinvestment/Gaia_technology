@@ -26,6 +26,23 @@
     if (e.target.closest('a')) setMenu(false);
   });
 
+  /* Le clic sur le logo referme le menu mobile (collapse) */
+  var brand = document.querySelector('.brand');
+  if (brand) {
+    brand.addEventListener('click', function () { setMenu(false); });
+  }
+
+  /* Fermer le menu au clic en dehors ou sur Échap */
+  document.addEventListener('click', function (e) {
+    if (toggle.getAttribute('aria-expanded') === 'true' &&
+        !menu.contains(e.target) && !toggle.contains(e.target)) {
+      setMenu(false);
+    }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') setMenu(false);
+  });
+
   /* Reveal au scroll */
   var revealEls = document.querySelectorAll('.reveal');
   if ('IntersectionObserver' in window) {
