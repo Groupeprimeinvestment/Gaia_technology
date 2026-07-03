@@ -1,0 +1,15 @@
+# OS / Google Drive
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Outils / éditeur
+.claude/
+.vercel/
+node_modules/
+
+# Documents internes — NE PAS publier sur un dépôt public
+*.pdf
+*.xlsx
+*.docx
+info GAIA.txt

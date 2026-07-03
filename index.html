@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaia Technology — Concevoir, déployer et faire vivre vos solutions numériques</title>
+  <meta name="description" content="Gaia Technology accompagne les organisations dans leur transformation digitale : logiciels sur mesure, digitalisation des processus, systèmes d'information géographique (SIG), conseil et infrastructures technologiques." />
+  <meta name="theme-color" content="#0B1220" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Gaia Technology — Solutions numériques & innovation" />
+  <meta property="og:description" content="Du logiciel sur mesure aux systèmes d'information géographique : nous concevons, déployons et faisons vivre vos solutions numériques." />
+  <meta property="og:locale" content="fr_FR" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;450;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Ambient background -->
+  <div class="aurora" aria-hidden="true">
+    <span class="blob blob--1"></span>
+    <span class="blob blob--2"></span>
+    <span class="blob blob--3"></span>
+    <div class="grid-overlay"></div>
+  </div>
+
+  <a href="#main" class="skip-link">Aller au contenu</a>
+
+  <!-- Header / Nav -->
+  <header class="site-header" id="siteHeader">
+    <div class="container nav">
+      <a href="#hero" class="brand" aria-label="Accueil Gaia Technology">
+        <img src="assets/logo.svg" alt="Gaia Technology" width="176" height="42" />
+      </a>
+
+      <nav class="nav-links" aria-label="Navigation principale">
+        <a href="#expertises">Expertises</a>
+        <a href="#innovation">Innovation</a>
+        <a href="#secteurs">Secteurs</a>
+        <a href="#approche">Approche</a>
+        <a href="#apropos">À propos</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn--primary btn--sm">Nous contacter</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <a href="#expertises">Expertises</a>
+      <a href="#innovation">Innovation</a>
+      <a href="#secteurs">Secteurs</a>
+      <a href="#approche">Approche</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact" class="btn btn--primary">Nous contacter</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <span class="eyebrow reveal">
+          <span class="dot"></span> Société technologique · Île Maurice
+        </span>
+        <h1 class="hero__title reveal">
+          Concevoir, déployer et&nbsp;<span class="grad-text">faire vivre</span> vos solutions numériques.
+        </h1>
+        <p class="hero__subtitle reveal">
+          Gaia Technology accompagne les organisations dans leur transformation digitale :
+          du logiciel sur mesure aux systèmes d'information géographique, de l'ingénierie
+          d'infrastructure à l'innovation métier.
+        </p>
+        <div class="hero__cta reveal">
+          <a href="#expertises" class="btn btn--primary btn--lg">Découvrir nos expertises</a>
+          <a href="#contact" class="btn btn--ghost btn--lg">Nous contacter →</a>
+        </div>
+
+        <div class="hero__stats reveal">
+          <div class="stat">
+            <span class="stat__num">5</span>
+            <span class="stat__label">pôles d'expertise</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">360°</span>
+            <span class="stat__label">cycle de vie projet</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">Geo</span>
+            <span class="stat__label">maîtrise de la donnée</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">24/7</span>
+            <span class="stat__label">solutions SaaS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Marquee -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Logiciels métiers</span><span>·</span>
+        <span>Applications web & mobiles</span><span>·</span>
+        <span>SaaS multi-tenant</span><span>·</span>
+        <span>Automatisation des processus</span><span>·</span>
+        <span>SIG & Geodata</span><span>·</span>
+        <span>Conseil & infrastructures</span><span>·</span>
+        <span>Sourcing & externalisation</span><span>·</span>
+        <span>Logiciels métiers</span><span>·</span>
+        <span>Applications web & mobiles</span><span>·</span>
+        <span>SaaS multi-tenant</span><span>·</span>
+        <span>Automatisation des processus</span><span>·</span>
+        <span>SIG & Geodata</span><span>·</span>
+        <span>Conseil & infrastructures</span><span>·</span>
+        <span>Sourcing & externalisation</span><span>·</span>
+      </div>
+    </div>
+
+    <!-- À propos -->
+    <section class="section" id="apropos">
+      <div class="container about">
+        <div class="about__text">
+          <span class="section-tag reveal">Qui sommes-nous</span>
+          <h2 class="section-title reveal">L'ingénierie numérique, du besoin métier à l'usage réel.</h2>
+          <p class="reveal">
+            Gaia Technology est une société technologique dédiée à la <strong>conception, au
+            développement et à la maintenance de solutions numériques</strong> au service de la
+            performance et de la durabilité des organisations.
+          </p>
+          <p class="reveal">
+            Nous intervenons sur l'ensemble du cycle de vie d'un projet digital — du cadrage et de
+            l'audit initial jusqu'au déploiement, à l'exploitation et au support. Notre approche
+            associe <strong>ingénierie logicielle exigeante</strong>, <strong>maîtrise de la
+            donnée</strong> (y compris géospatiale) et <strong>capacité d'intégration</strong>, pour
+            transformer des besoins métiers en outils fiables, évolutifs et réellement adoptés.
+          </p>
+          <p class="reveal">
+            De la start-up à la grande organisation, quel que soit le secteur, nous construisons des
+            solutions qui améliorent la productivité, sécurisent les processus et créent de la valeur
+            durable.
+          </p>
+        </div>
+        <div class="about__cards">
+          <div class="mini-card reveal">
+            <div class="mini-card__icon">◇</div>
+            <h3>Exigence d'ingénierie</h3>
+            <p>Un code fiable, documenté et maintenable, pensé pour durer.</p>
+          </div>
+          <div class="mini-card reveal">
+            <div class="mini-card__icon">◈</div>
+            <h3>Maîtrise de la donnée</h3>
+            <p>De la collecte à la valorisation, y compris géospatiale.</p>
+          </div>
+          <div class="mini-card reveal">
+            <div class="mini-card__icon">◉</div>
+            <h3>Accompagnement durable</h3>
+            <p>Déploiement, support et évolution continue dans le temps.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Expertises -->
+    <section class="section" id="expertises">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag reveal">Nos domaines d'expertise</span>
+          <h2 class="section-title reveal">Cinq pôles pour couvrir toute la chaîne de valeur numérique.</h2>
+        </div>
+
+        <div class="bento">
+          <article class="card card--wide reveal">
+            <div class="card__num">01</div>
+            <h3>Ingénierie & développement de solutions numériques</h3>
+            <p>Des produits numériques robustes, pensés pour durer et évoluer avec vos usages.</p>
+            <ul class="card__list">
+              <li>Logiciels métiers sur mesure</li>
+              <li>Applications web & mobiles centrées utilisateur</li>
+              <li>Solutions SaaS multi-tenant, disponibles en continu</li>
+              <li>Maintenance & évolution dans la durée</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__num">02</div>
+            <h3>Digitalisation & automatisation des processus</h3>
+            <p>Des flux de travail manuels transformés en processus fluides, traçables et fiables.</p>
+            <ul class="card__list">
+              <li>Dématérialisation & circuits de validation</li>
+              <li>Automatisation des tâches et reportings</li>
+              <li>Plateformes de pilotage temps réel</li>
+              <li>Intégration avec vos outils existants</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__num">03</div>
+            <h3>Systèmes d'information géographique & Geodata</h3>
+            <p>La donnée géographique transformée en véritable levier de décision.</p>
+            <ul class="card__list">
+              <li>SIG : territoire, foncier, réseaux, patrimoine</li>
+              <li>Collecte & valorisation de la géodonnée</li>
+              <li>Cartographie interactive & dashboards</li>
+              <li>Interopérabilité avec les standards</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__num">04</div>
+            <h3>Conseil, ingénierie & infrastructures</h3>
+            <p>Les fondations techniques de votre transformation, au-delà du logiciel.</p>
+            <ul class="card__list">
+              <li>Audit & conseil : diagnostic, feuille de route</li>
+              <li>Conception & déploiement d'infrastructures</li>
+              <li>Intégration de solutions tierces</li>
+              <li>Assistance technique & support opérationnel</li>
+            </ul>
+          </article>
+
+          <article class="card reveal">
+            <div class="card__num">05</div>
+            <h3>Sourcing, approvisionnement & externalisation</h3>
+            <p>Les ressources et compétences nécessaires à la réussite de vos projets.</p>
+            <ul class="card__list">
+              <li>Sourcing de solutions, équipements & compétences</li>
+              <li>Externalisation de services liés à vos projets</li>
+              <li>Gestion de l'approvisionnement</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Innovation -->
+    <section class="section" id="innovation">
+      <div class="container">
+        <div class="feature-band reveal">
+          <div class="feature-band__glow" aria-hidden="true"></div>
+          <div class="feature-band__content">
+            <span class="section-tag section-tag--light">Innovation & recherche</span>
+            <h2 class="section-title">L'innovation n'est pas une option : c'est notre méthode.</h2>
+            <p>
+              Gaia Technology investit dans la <strong>recherche et le développement de nouveaux
+              produits et services numériques</strong>, et met en œuvre des technologies innovantes
+              applicables à tous les secteurs — économiques, industriels, environnementaux et
+              sociétaux.
+            </p>
+            <div class="pill-row">
+              <span class="pill">↑ Productivité</span>
+              <span class="pill">♺ Durabilité</span>
+              <span class="pill">⇢ Transformation digitale</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Secteurs -->
+    <section class="section" id="secteurs">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag reveal">Nos secteurs d'intervention</span>
+          <h2 class="section-title reveal">Des solutions transversales, adaptées à chaque contexte.</h2>
+        </div>
+        <div class="sectors">
+          <div class="sector reveal"><span class="sector__ico">🌍</span> Aménagement du territoire, foncier & gestion patrimoniale</div>
+          <div class="sector reveal"><span class="sector__ico">🌱</span> Environnement & développement durable</div>
+          <div class="sector reveal"><span class="sector__ico">💳</span> Services financiers & FinTech</div>
+          <div class="sector reveal"><span class="sector__ico">🏭</span> Industrie, commerce & services</div>
+          <div class="sector reveal"><span class="sector__ico">🏛️</span> Secteur public & organisations institutionnelles</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Approche -->
+    <section class="section" id="approche">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-tag reveal">Notre approche</span>
+          <h2 class="section-title reveal">Une méthode, quatre convictions.</h2>
+        </div>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__idx">01</span>
+            <h3>Écoute & cadrage</h3>
+            <p>Nous partons de vos besoins réels, pas d'une solution toute faite.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__idx">02</span>
+            <h3>Exigence d'ingénierie</h3>
+            <p>Un code fiable, documenté et maintenable.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__idx">03</span>
+            <h3>Maîtrise de la donnée</h3>
+            <p>De la collecte à la valorisation, y compris géospatiale.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__idx">04</span>
+            <h3>Accompagnement dans la durée</h3>
+            <p>Déploiement, support et évolution continue.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container contact">
+        <div class="contact__intro">
+          <span class="section-tag reveal">Contact</span>
+          <h2 class="section-title reveal">Un projet numérique ? Parlons-en.</h2>
+          <p class="reveal">
+            Que vous souhaitiez digitaliser un processus, développer une application, valoriser vos
+            données ou moderniser votre infrastructure, nos équipes sont à votre écoute.
+          </p>
+          <ul class="contact__coords reveal">
+            <li><span class="contact__ico">✉</span> <a href="mailto:contact@gaia-technology.com">contact@gaia-technology.com</a> <em>(à valider)</em></li>
+            <li><span class="contact__ico">☎</span> <span>+230 &nbsp;— &nbsp;<em>à compléter</em></span></li>
+            <li><span class="contact__ico">📍</span> <span>Île Maurice <em>— adresse à préciser</em></span></li>
+          </ul>
+        </div>
+
+        <form class="contact__form reveal" id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Nom complet</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" required />
+          </div>
+          <div class="field">
+            <label for="email">Email professionnel</label>
+            <input type="email" id="email" name="email" placeholder="vous@entreprise.com" required />
+          </div>
+          <div class="field">
+            <label for="subject">Votre besoin</label>
+            <select id="subject" name="subject">
+              <option>Développement de logiciel / application</option>
+              <option>Digitalisation & automatisation</option>
+              <option>SIG & Geodata</option>
+              <option>Conseil & infrastructures</option>
+              <option>Sourcing & externalisation</option>
+              <option>Autre</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Décrivez votre projet en quelques lignes…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--lg btn--block">Envoyer la demande</button>
+          <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer">
+      <div class="footer__brand">
+        <img src="assets/logo.svg" alt="Gaia Technology" width="176" height="42" />
+        <p>Concevoir, déployer et faire vivre vos solutions numériques.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Pied de page">
+        <div>
+          <h4>Expertises</h4>
+          <a href="#expertises">Ingénierie & développement</a>
+          <a href="#expertises">Digitalisation & automatisation</a>
+          <a href="#expertises">SIG & Geodata</a>
+          <a href="#expertises">Conseil & infrastructures</a>
+        </div>
+        <div>
+          <h4>Société</h4>
+          <a href="#apropos">Qui sommes-nous</a>
+          <a href="#innovation">Innovation & recherche</a>
+          <a href="#secteurs">Secteurs</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year"></span> Gaia Technology LTD — Île Maurice. Tous droits réservés.</span>
+      <span class="footer__made">Site institutionnel · design provisoire à harmoniser avec la charte graphique</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
