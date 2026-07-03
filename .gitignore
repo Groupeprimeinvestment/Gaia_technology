@@ -14,4 +14,8 @@ node_modules/
 *.docx
 info GAIA.txt
 
+# Captures d'écran / logos sources (les logos web sont dans assets/logos/)
+Capture*
+/LOGOS/
+
 .vercel
